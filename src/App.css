@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  width: 300px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav a {
+  margin-right: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.icons-container{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icons{
+  padding-left: 20px;
+}
+
+.About-layout {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.About-info .About-Photo {
+  width: 50%;
+}
