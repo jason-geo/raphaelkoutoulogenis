@@ -3,7 +3,6 @@ import logo from "../../assets/raphael-koutoulogenis-logo-cropped.png";
 import Nav from "./Nav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
 
 const Header = ({ onLinkClick }) => {
 

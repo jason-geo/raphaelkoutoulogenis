@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
 .App {
   display: flex;
   flex-direction: column;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -24,18 +27,19 @@
 }
 
 .nav a {
-  margin-right: 20px;
-  font-size: 18px;
+  margin: 0 2.5rem;
+  font-size: 16px;
+  font-weight: 300;
   text-decoration: none;
   color: black;
 }
 
-.icons-container{
+.icons-container {
   display: flex;
   justify-content: flex-start;
 }
 
-.icons{
+.icons {
   padding-left: 20px;
 }
 
@@ -47,4 +51,19 @@
 
 .About-info .About-Photo {
   width: 50%;
+}
+
+.footer {
+  height: 10rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.footer-item a {
+  margin: 0 2rem;
+  font-size: 19px;
+  font-weight: medium;
 }
